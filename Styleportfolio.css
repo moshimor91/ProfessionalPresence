@@ -1,0 +1,316 @@
+p {
+  font-family: Arial;
+  color: red;
+}
+
+h1 {
+  color: maroon;
+}
+
+h2{
+  font-family: didot;
+  font-weight: lighter;
+  position: relative;
+  bottom: 30px;
+}
+
+
+.description h5{
+  color: teal;
+}
+.titler {
+  color: white;
+  position: relative;
+  top: 50px;
+  left: 130px;;
+}
+
+.subtitle{
+  position: absolute;
+  top: 140px;
+  right: .1px;
+  left: 130px;
+}
+
+.subtitle h1{
+  color: black;
+  font-weight: lighter;
+
+}
+
+.titler h2{
+  background-color: black;
+  width:10.5%;
+  padding: 6px 6px;
+  border: 5px solid transparent;
+  transition: 0.6s ease;
+}
+
+
+
+.container{
+ position: relative;
+ bottom: 55vh;
+ left: 10%;
+}
+
+.paragraf{
+  position: absolute;
+  word-wrap: break-word;
+  max-width: 530px;
+  top: -8vh;
+}
+
+.row {
+  display: table;
+
+}
+.col h3{
+  font-family:  didot;
+}
+
+.col {
+  display: table-cell;
+  width: 50%;
+  position: relative;
+  bottom: 60vh;
+  left: 20vh;
+}
+.title {
+  color: black;
+  position: relative;
+  top: 0px;
+  left: 130px;
+}
+
+
+.row1 {
+  display: table;
+
+}
+.col1 h3{
+  font-family:  didot;
+}
+
+.col1 h4{
+  font-family:  didot;
+}
+
+.col1 {
+  display: table-cell;
+  width: 50%;
+  position: relative;
+  bottom: 28vh;
+  left: 20vh;
+}
+
+.row2 {
+  display: table;
+}
+.col2 h3{
+  font-family:  didot;
+}
+
+.col2 h4{
+  font-family:  didot;
+}
+
+.col2 {
+  display: table-cell;
+  width: 0%;
+  position: relative;
+  bottom: 10vh;
+  left: 20vh;
+}
+.row2 .paragraf2{
+  position: relative;
+  max-width: 180vh;
+  word-wrap: break-word;
+  top: -0vh;
+}
+
+col2. p{
+  width: 100  %;
+}
+
+
+.row3 {
+  display: table;
+}
+.col3 h3{
+  font-family:  didot;
+}
+
+.col3 h4{
+  font-family:  didot;
+}
+
+.col3 {
+  display: table-cell;
+  width: 0%;
+  position: relative;
+  bottom: 0vh;
+  left: 20vh;
+}
+.row3 .paragraf3{
+  position: relative;
+  max-width: 180vh;
+  word-wrap: break-word;
+  top: -0vh;
+}
+
+col2. p{
+  width: 100  %;
+}
+
+
+.row4 {
+  display: table;
+}
+.col4 h3{
+  font-family:  didot;
+}
+
+.col4 h4{
+  font-family:  didot;
+}
+
+.col4 {
+  display: table-cell;
+  width: 0%;
+  position: relative;
+  bottom: -11vh;
+  left: 20vh;
+}
+.row4 .paragraf4{
+  position: relative;
+  max-width: 180vh;
+  word-wrap: break-word;
+  top: -45vh;
+}
+
+
+.row5 {
+  display: table;
+}
+.col5 h3{
+  font-family:  didot;
+}
+
+.col5 h4{
+  font-family:  didot;
+}
+
+.col5 {
+  display: table-cell;
+  width: 0%;
+  position: relative;
+  bottom: -11vh;
+  left: 20vh;
+}
+.row5 .paragraf5{
+  position: relative;
+  max-width: 180vh;
+  word-wrap: break-word;
+  top: -45vh;
+}
+
+h5,
+ p{
+  font-family:fantasy;
+  color: black;
+
+}
+
+h5{
+  color: rebeccapurple !important;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+.publish-time{
+  color: blue;
+}
+h2.destination{
+font-family: cursive;
+}
+
+.cursive{
+  font-family: cursive;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+
+}
+header{
+  background-color: white;
+  /*background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));*/
+  height: 100vh;
+
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li{
+  display: inline-block
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: grey;
+  color: black;
+}
+
+.title{
+  position: absolute;
+  top: 8%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size = 70px;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}

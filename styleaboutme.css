@@ -1,0 +1,163 @@
+p {
+  font-family: Arial;
+  color: red;
+}
+
+h1 {
+  color: maroon;
+}
+.titler {
+  color: white;
+  position: relative;
+  top: 50px;
+  left: 130px;;
+}
+.titler h2{
+  background-color: black;
+  width:10.5%;
+  padding: 6px 6px;
+  border: 5px solid transparent;
+  transition: 0.6s ease;
+}
+
+h2{
+  font-family: serif;
+  font-weight: lighter;
+  position: relative;
+  bottom: 30px;
+}
+
+
+.description h5{
+  color: teal;
+}
+.title {
+  color: black;
+  position: relative;
+  top: 0px;
+  left: 130px;
+}
+
+.container{
+ position: relative;
+ top: 18vh;
+ left: 20%;
+
+}
+
+.paragraf{
+  position: absolute;
+  word-wrap: break-word;
+  max-width: 1000px;
+  top:28vh;
+}
+
+.row {
+  display: table;
+
+}
+
+.col {
+  width: 50%;
+  display: table-cell;
+}
+
+h5,
+ p{
+  font-family:  didot;
+  color: black;
+
+}
+
+h5{
+  color: rebeccapurple !important;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+.publish-time{
+  color: blue;
+}
+h2.destination{
+font-family: cursive;
+}
+
+.cursive{
+  font-family: cursive;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+
+}
+header{
+  background-color: white;
+  /*background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));*/
+  height: 10vh;
+
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li{
+  display: inline-block
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: grey;
+  color: black;
+}
+
+.title{
+  position: absolute;
+  top: 8%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size = 70px;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}

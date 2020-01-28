@@ -1,0 +1,268 @@
+@font-face{
+  font-family: roboto;
+  src: url(robot.ttf);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: roboto;
+  background: #fff;
+  margin: 0;
+}
+nav {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2));
+  height: 10vh;
+  width: 100%
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 5px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 2vh;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #232323;
+  font-size: 1.1em;
+
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+
+}
+
+.bg{
+  width: 100%;
+  height: 100vh;
+  /*background: #f0f0f0;*/
+  /*background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url(https://i.pinimg.com/originals/93/c6/aa/93c6aaa4424c468db1c9f7904eb400d8.gif);*/
+
+  background: black;
+
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content {
+  width: 90%;
+  height: 70%;
+  /*background: #fff;*/
+  /*position: fixed;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kolom{
+  margin: 10px;
+  width: 28%;
+  height: 85%;
+  /*background: #333;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  overflow: hidden;
+  opacity: 0.8;
+  transition: : .3s ease;
+}
+
+.kolom:hover{
+  width: 35%;
+  height: 100%;
+}
+
+
+.kolom .atas img{
+  width: 100%;
+  height: 100%;
+}
+
+.kolom .atas{
+    width: 100%;
+    height: 60%;
+    background: #2c3e50 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.kolom .tengah{
+  width: 100%;
+  height: 15%;
+  background: #fff;
+  display: flex;
+  justify-content:center;
+}
+
+
+
+.kolom .bawah{
+  width: 100%;
+  height: 30%;
+  background: #f0f0f0 ;
+}
+
+footer{
+  background: #fff;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.bgf{
+  width: 100%;
+  height: 100vh;
+  /*background: #f0f0f0;*/
+  /*background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8 )), url(https://cdn.dribbble.com/users/1896468/screenshots/4318479/0330_typo_passion_creativity_for_dribbble-b.gif);*/
+  background: #f0f0f0;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentf{
+  background: black;
+
+  width: 100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contentf .atas{
+  background: black;
+  height: 40%;
+  width: 100%;
+}
+
+.contentf .bawah{
+  background: black;
+  height: 60%;
+  width: 100%
+  overflow: hidden;
+  display: flex;
+  justify-content:  center;
+  align-items:  center;
+  flex-wrap: wrap;
+}
+
+form{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+input[type="search"]{
+  border-radius: 50px;
+  padding: 2vh 3vh 2vh 3vh;
+  outline: none;
+  border: none;
+  color: #333;
+  width: 50%;
+  height: 10vh;
+  font-size: 1.5em;
+  opacity: .7;
+}
+
+.title{
+  background: black;
+  overflow: hidden;
+  height: 30%;
+  width: 100%;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items:  flex-end;
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+.paragraf{
+  overflow: hidden;
+  height: 70%;
+  width: 60%;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.2em;
+  text-align: center;
+}
+header{
+  background-color: black;
+  /*background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));*/
+  height: 100vh;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li{
+  display: inline-block
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
