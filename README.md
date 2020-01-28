@@ -1,2 +1,2 @@
 # ProfessionalPresence
-Jung Hoon Seo's website
+http://people.tamu.edu/~moshimor91/
